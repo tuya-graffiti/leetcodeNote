@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ai/NLP/.idea/NLP.iml" filepath="$PROJECT_DIR$/../ai/NLP/.idea/NLP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/算法笔记.iml" filepath="$PROJECT_DIR$/.idea/算法笔记.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../algo/自带库/.idea/自带库.iml" filepath="$PROJECT_DIR$/../algo/自带库/.idea/自带库.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../algo/.idea/蓝桥杯.iml" filepath="$PROJECT_DIR$/../algo/.idea/蓝桥杯.iml" />
     </modules>
   </component>
 </project>

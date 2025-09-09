@@ -1,15 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94e4cb71-c4ca-4e4f-96b4-3fb18f17c4b7" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/02-code/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/04-作业/01作业/文本数据分析.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/04-作业/01作业/文本的张量表示.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/04-作业/01作业/文本预处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/默写/dataprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/默写/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/默写/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ai/NLP/默写/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/力扣题库/1792最大平均通过率.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/力扣题库/6Z字形变换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/双指针/11盛最多水的容器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板库/二叉树/DP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板库/二叉树/层序遍历.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板库/二叉树/递归.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/测试页.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识点/双指针.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识点/数据结构模板.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识点/滑动窗口.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../991坏了的计算器.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/算法笔记.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/算法笔记.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3446按对角线进行矩阵排列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/991坏了的计算器.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/回溯.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/散列表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/991.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/三维结构.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/导读1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/拉链法.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../回溯.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../散列表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/0810算法练习.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/0814练习.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/0815练习.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/0816练习.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/0820练习.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/1493.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/pic/2106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/pic/2322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/pic/2438.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/pic/68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../练习题/pic/858.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="324te6IJ55GvpMqtX7efCUmBbnc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/xun/Project/ai/NLP/课堂/nameclassfication/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xun\Project\ai\NLP\课堂\nameclassfication\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xun\Project\leetcodeNote\模板库\二叉树" />
+      <recent name="E:\xun\Project\leetcodeNote\模板库" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai/NLP/默写" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai/NLP/默写/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai/NLP/默写" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai/NLP/默写/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai/NLP/02-code/02-RNN系列/English2French" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai/NLP/02-code/02-RNN系列/English2French/process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai/NLP/02-code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai/NLP/02-code/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai/NLP/默写" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai/NLP/默写/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,5 +332,81 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.model" />
+        <item itemvalue="Python.process" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="94e4cb71-c4ca-4e4f-96b4-3fb18f17c4b7" name="更改" comment="" />
+      <created>1756691765275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756691765275</updated>
+      <workItem from="1756691766394" duration="13988000" />
+      <workItem from="1756727329302" duration="3243000" />
+      <workItem from="1756774790783" duration="14980000" />
+      <workItem from="1756800857412" duration="114000" />
+      <workItem from="1756800987317" duration="44000" />
+      <workItem from="1756801384950" duration="1874000" />
+      <workItem from="1756803401237" duration="2214000" />
+      <workItem from="1756812706378" duration="2458000" />
+      <workItem from="1756815286582" duration="1050000" />
+      <workItem from="1756818228200" duration="1508000" />
+      <workItem from="1756862869601" duration="20449000" />
+      <workItem from="1756944925507" duration="7426000" />
+      <workItem from="1757038395915" duration="14568000" />
+      <workItem from="1757075502236" duration="1202000" />
+      <workItem from="1757206225463" duration="6135000" />
+      <workItem from="1757237916781" duration="1015000" />
+      <workItem from="1757238948595" duration="6556000" />
+      <workItem from="1757290903906" duration="12188000" />
+      <workItem from="1757315560027" duration="1269000" />
+      <workItem from="1757319112922" duration="8692000" />
+      <workItem from="1757382730890" duration="3224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../ai/NLP/01-讲义/test.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../ai/NLP/02-code/test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcodeNote$train__1_.coverage" NAME="train (1) 覆盖结果" MODIFIED="1757209886314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/02-code/02-RNN系列/nameclassfication" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$.coverage" NAME="测试页 覆盖结果" MODIFIED="1756882515269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$train.coverage" NAME="train 覆盖结果" MODIFIED="1757307823360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/默写" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$test.coverage" NAME="test 覆盖结果" MODIFIED="1757384939853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/02-code" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$model.coverage" NAME="model 覆盖结果" MODIFIED="1757297807713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/默写" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$predict.coverage" NAME="predict 覆盖结果" MODIFIED="1757297918392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/默写" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$dataprocess.coverage" NAME="dataprocess 覆盖结果" MODIFIED="1757042290187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/默写" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$_tensor.coverage" NAME="_tensor 覆盖结果" MODIFIED="1757210743103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Anaconda3/Lib/site-packages/torch" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$dataprocess__1_.coverage" NAME="dataprocess (1) 覆盖结果" MODIFIED="1756899542959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/课堂/nameclassfication" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$process.coverage" NAME="process 覆盖结果" MODIFIED="1757216416186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/02-code/02-RNN系列/English2French" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$1792.coverage" NAME="1792最大平均通过率 覆盖结果" MODIFIED="1756693477655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/力扣题库" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$model__1_.coverage" NAME="model (1) 覆盖结果" MODIFIED="1756803056438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/02-code/02-RNN系列/nameclassfication" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$train__2_.coverage" NAME="train (2) 覆盖结果" MODIFIED="1757210764866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ai/NLP/02-code/02-RNN系列/English2French" />
+    <SUITE FILE_PATH="coverage/leetcodeNote$11.coverage" NAME="11盛最多水的容器 覆盖结果" MODIFIED="1756897706490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/双指针" />
   </component>
 </project>
